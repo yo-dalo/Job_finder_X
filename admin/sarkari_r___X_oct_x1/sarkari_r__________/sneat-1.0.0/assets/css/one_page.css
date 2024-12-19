@@ -1,0 +1,63 @@
+#page1 {
+   width: 100%;
+   height: 100vh;
+      display: none;
+   animation-name: fadeout;
+   animation-duration: 1s;
+   animation-timing-function: ease-in-out;
+   animation-fill-mode: forwards;
+
+}
+
+#page2 {
+   width: 100%;
+   height: 100vh;
+  animation-name: fadeout;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+
+}
+
+
+#page3 {
+   width: 100%;
+   height: 100vh;
+   display: none;
+   animation-name: fadeout;
+   animation-duration: 1s;
+   animation-timing-function: ease-in-out;
+   animation-fill-mode: forwards;
+
+}
+
+
+
+/* Define the animation */
+@keyframes fadein {
+   from {
+      transform: scale(0.1);
+      opacity: 0;
+   }
+
+   to {
+      width: 100%;
+      transform: scale(1);
+      opacity: 1;
+
+   }
+}
+
+
+@keyframes fadeout {
+   from {
+      opacity: 0;
+   }
+
+   to {
+      opacity: 1;
+   }
+}
+
+
+/* Apply the animation to the element you want to fade out */

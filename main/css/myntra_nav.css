@@ -1,0 +1,71 @@
+.myntra_nav{
+   height: 80px;
+}
+
+
+
+.myntra_nav_logo{
+   width: 10%;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: flex-start;
+   padding: 2vw;
+  
+  
+}
+
+.myntra_nav_logo img {
+   max-width: 100%; /* Ensure the logo image doesn't exceed its container */
+   height: auto; /* Maintain the image's aspect ratio */
+}
+
+.myntra_nav > .z1{
+  display: flex;
+      align-items: center;
+   justify-content: space-between;
+   padding: 2vw;
+   width: 50%;
+   font-size: 1vw;
+}
+
+
+.z2{
+    padding: 2vw;
+width: 20%;
+height: 100%;
+}
+.z2 input{
+   width: 100%;
+   height: 100%;
+   border: none;
+   background: #ECECEC;
+   padding: 2vw;
+   border-radius: 5px;
+      font-size: 2vw;
+
+   
+}
+
+.z3{
+   width: 20%;
+   height: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+
+
+.z3 div{
+   
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+   font-size: 1.6vw;
+
+}
+
+.z3 i{
+   font-size: 2vw;
+}

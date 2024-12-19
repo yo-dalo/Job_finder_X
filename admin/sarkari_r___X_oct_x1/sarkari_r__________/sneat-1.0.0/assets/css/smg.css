@@ -1,0 +1,63 @@
+#success_smg {
+   width: 50%;
+   position: fixed;
+   right: 10px;
+   top: 89px;
+   background: #6637CA;
+   animation-name: slideIn;
+   animation-duration: 1s;
+   animation-timing-function: ease-in-out;
+   animation-fill-mode: forwards;
+   display: none;
+   color: white;
+   z-index: 1500;
+}
+
+@keyframes slideIn {
+   from {
+      transform: translateX(100%);
+   }
+
+   to {
+      transform: translateX(0);
+   }
+}
+
+.main_category_post_table{
+      background: #FFFFFF;
+      transition-duration: 0.5s;
+      
+}
+
+
+.main_category_post_table:hover{
+   background: #F3F4FF;
+    backdrop-filter: blur(5px);
+   
+   
+}
+
+
+
+.coming_soon{
+    background: #121FCF;
+background: radial-gradient(ellipse farthest-corner at center center, #121FCF 13%, #CF1512 61%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+   animation-name: ani_1;
+   animation-duration: 1s;
+   animation-timing-function: ease-in-out;
+   animation-fill-mode: forwards;
+}
+
+
+@keyframes ani_1 {
+   from {
+      transform: translateX(100%);
+   }
+
+   to {
+      transform: translateX(0);
+   }
+}
+

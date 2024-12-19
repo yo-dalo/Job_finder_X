@@ -1,0 +1,76 @@
+.page1 {
+   height: auto;
+   width: 100%;
+   background: #5963D9;
+
+height: 100vh;
+}
+
+#page2 {
+   height: auto;
+   width: 100%;
+   background: #ED7373;
+}
+
+#page3 {
+
+   height: auto;
+   width: 100%;
+   background: #2FFFE4;
+
+}
+
+#page4 {
+   height: auto;
+   width: 100%;
+
+
+}
+
+#page5 {
+   height: auto;
+   width: 100%;
+
+   display: none;
+
+}
+
+#page6 {
+   height: auto;
+   width: 100%;
+
+   display: none;
+
+}
+
+
+
+
+
+
+
+
+
+#success_smg {
+   width: 50%;
+   position: fixed;
+   right: 10px;
+   top: 89px;
+   background: #6637CA;
+   animation-name: slideIn;
+   animation-duration: 1s;
+   animation-timing-function: ease-in-out;
+   animation-fill-mode: forwards;
+   display: none;
+   color: white;
+}
+
+@keyframes slideIn {
+   from {
+      transform: translateX(100%);
+   }
+
+   to {
+      transform: translateX(0);
+   }
+}

@@ -1,0 +1,171 @@
+.main {
+    width: 100%;
+    height: auto;
+    margin: 0vw;
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+    padding: 2vw;
+}
+
+
+nav {
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 5px;
+    box-shadow: 0 0.5px 0.5px 0 rgba(0, 0, 0, 0.2), 0 0.5px 0.8px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+        height: 10vw;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left_nav {
+    height: 100%;
+    width: 10%;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    background: #F2F0FF;
+}
+
+.right_nav {
+    height: 100%;
+    width: 50%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background1: #CDCDCD;
+    padding: 0 2vw;
+    ;
+    color: #989898;
+    font-size: 2vw;
+
+
+}
+
+.right_nav h2:hover {}
+
+
+
+
+
+.centre_nav {
+    height: 100%;
+    width: 40%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background1: #CDCDCD;
+    padding: 0 2vw;
+
+
+    ;
+}
+
+.centre_nav input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 0px solid #E1E1F0;
+    border-radius: 5px;
+    padding: 2vw;
+    outline: none;
+    font-size: 3vw;
+    color: #989898;
+}
+
+
+.z_body {
+    width: 100%;
+    height: 100%;
+    padding: 0 2vw;
+    animation-name: opc;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
+@keyframes opc{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+
+    }
+    
+}
+
+
+
+.z_body .post_name {
+    font-size: 8vw;
+    text-transform: uppercase;
+    color: #999999;
+    filter: blur(1px);
+}
+
+
+.z_body .all_post {
+    width: 100%;
+    margin-top: 19vw;
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+
+
+}
+
+
+.all_post .post {
+    width: 100%;
+    height: 25vw;
+    border-radius: 5px;
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.post .post_img {
+    width: 35%;
+    height: 100%;
+    min-width: 35%;
+    border-radius: 5px;
+    padding: 2vw;
+}
+
+.post .post_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+
+
+}
+
+
+.post .post_info {
+    padding: 3vw 5vw;
+
+}
+
+.post .post_info h1 {
+    font-size: 3vw;
+
+}
+
+.post .post_info h2 {
+    font-size: 4vw;
+    margin: 3vw 0;
+}
+
+.post .post_info h2 span {
+    color: crimson;
+}
+
+
+
+

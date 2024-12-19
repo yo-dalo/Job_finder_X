@@ -1,0 +1,151 @@
+.index_z_body .index_all_post {
+    width: 100%;
+    margin-top: 19vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    ;
+    gap: 3vw;
+
+
+}
+
+.index_all_post .index_post,
+.post_box {
+    width: 31%;
+
+    max-height: 100vw;
+    height: auto;
+    border-radius: 5px;
+    display: flex;
+    gap: 2vw;
+    flex-direction: column;
+    background: rgba(223, 223, 223, 0.66);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    padding: 1vw;
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+    background: #F0F0F0;
+
+
+}
+
+.index_all_post .index_post div {
+    width: 100%;
+    border-radius: 3px;
+    color: #0024FFC7;
+    display: flex;
+    background: #FFFFFF;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+    align-items: center;
+    padding: 1.5vw;
+    scroll-snap-align: center;
+
+}
+
+.index_all_post .index_post div h6,
+a {
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1vw;
+
+}
+
+h6::before {
+    content: "-";
+    font-size: 1vw;
+    color: #000;
+    /* Set the color of the dot */
+}
+
+.cat_name {
+    position: absolute;
+
+}
+
+/* ❌❌❌❌ */
+
+.container {
+    margin-top: 19vw;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 3vw;
+}
+
+.container .box {
+    width: 32%;
+    background: #F0F0F0;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.box .cat_box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 1vw 0;
+
+
+}
+
+.box .cat_box a {
+    font-size: 4vw;
+    text-align: center;
+
+}
+
+
+
+
+.box .post_box_ {
+    width: 100%;
+    background: #E3E3E3;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+    border-radius: 5px;
+
+
+
+
+}
+
+.post_box_ ._post {
+    width: 100%;
+    max-height: 100vw;
+    height: auto;
+    border-radius: 5px;
+    background: rgba(223, 223, 223, 0.66);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+        rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    overflow: auto;
+    scroll-snap-type: y mandatory;
+    background: #F0F0F0;
+
+}
+
+._post::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+
+.post_box_ ._post div {
+    margin: 1vw 0.5vw;
+    background: #FFFFFF;
+    padding: 1vw 1vw;
+    line-height: 2.5vw;
+    backdrop-filter: blue(10px);
+    border-radius: 2px;
+    scroll-snap-align: center;
+
+
+}
+
+.post_box_ ._post div a {
+    font-size: 1.7vw;
+}

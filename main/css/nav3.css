@@ -1,0 +1,117 @@
+.x1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1vw;
+    width: 20%;
+    height: 100%;
+}
+
+.x1 a i{
+    font-size: 8vw;
+    color: black  !important;
+}
+
+
+
+.x2 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 1vw;
+    width: 80%;
+    height: 100%;
+    gap: 1vw;
+    position: relative;
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+
+}
+
+.x2::-webkit-scrollbar {
+    display: none;
+}
+
+.x2 div {
+    height: 80%;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 3vw;
+    border-radius: 1vw;
+    scroll-snap-align: start;
+
+}
+
+.x2 h2 {
+    font-size: 3vw;
+    white-space: nowrap;
+
+}
+
+.x2 h2 a {
+    color: black;
+    text-decoration: none;
+}
+
+.x3 {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1vw;
+    width: 40%;
+    height: 100%;
+    position: relative;
+    gap: 2vw;
+
+}
+
+.x3 div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.x3 .x3_1 {
+    font-size: 3vw;
+
+}
+
+
+.x3 .x3_2 {
+    width: 12vw;
+    font-size: 2.7vw;
+    border: none;
+    background: #F3F3FB;
+    padding: 2vw 10vw;
+    white-space: nowrap;
+    border-radius: 5px 50px;
+    transition-duration: 2s;
+
+}
+
+
+.x3 .x3_2:hover {
+    color: #638BEA;
+    border-radius: 50px 5px;
+    background: #BBFBFFE3;
+    padding: 2vw 10vw;
+}
+
+
+.x3 .x3_2 a {
+    color: black;
+    text-decoration: none;
+
+}
+
+a {
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 2vw;
+
+
+}
